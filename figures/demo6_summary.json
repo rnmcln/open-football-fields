@@ -1,0 +1,90 @@
+{
+  "season": "FA Women's Super League 2019/20",
+  "n_team_match_rows": 174,
+  "n_teams": 13,
+  "median_matches_per_team": 14,
+  "reliability_2019_20": {
+    "mean_xt_end": {
+      "pearson_r": 0.7185257918291597,
+      "spearman_rho": 0.7832167832167832,
+      "p_value": 0.01649175412293853,
+      "n_groups": 12
+    },
+    "entropy_end": {
+      "pearson_r": -0.004727129214415514,
+      "spearman_rho": -0.1258741258741259,
+      "p_value": 0.9845077461269365,
+      "n_groups": 12
+    },
+    "directness": {
+      "pearson_r": 0.8629035689195953,
+      "spearman_rho": 0.7342657342657343,
+      "p_value": 0.0009995002498750624,
+      "n_groups": 12
+    },
+    "att_third_frac": {
+      "pearson_r": 0.6822992134234889,
+      "spearman_rho": 0.7062937062937064,
+      "p_value": 0.014992503748125937,
+      "n_groups": 12
+    },
+    "sum_dxt": {
+      "pearson_r": 0.9078644072938205,
+      "spearman_rho": 0.8461538461538463,
+      "p_value": 0.0009995002498750624,
+      "n_groups": 12
+    }
+  },
+  "reliability_2018_19": {
+    "mean_xt_end": 0.7976592916783314,
+    "entropy_end": -0.2055937694272429,
+    "directness": 0.9733402643244853,
+    "att_third_frac": 0.8589870586468659,
+    "sum_dxt": 0.8714072241695389
+  },
+  "team_vs_opponent_2019_20": {
+    "mean_xt_end": {
+      "a_partial": 0.23011201609365195,
+      "b_partial": 0.23226333767192275,
+      "r2_full": 0.5425070448298897,
+      "residual": 0.45749295517011035,
+      "p_value": 0.000999000999000999,
+      "n": 174
+    },
+    "entropy_end": {
+      "a_partial": 0.06477554078436576,
+      "b_partial": 0.11348360803819191,
+      "r2_full": 0.17780794456636428,
+      "residual": 0.8221920554336357,
+      "p_value": 0.4675324675324675,
+      "n": 174
+    },
+    "directness": {
+      "a_partial": 0.4749968878336648,
+      "b_partial": 0.1465365035378826,
+      "r2_full": 0.6403629809010316,
+      "residual": 0.3596370190989684,
+      "p_value": 0.000999000999000999,
+      "n": 174
+    },
+    "att_third_frac": {
+      "a_partial": 0.17728281291244818,
+      "b_partial": 0.24361389680990697,
+      "r2_full": 0.485253286228872,
+      "residual": 0.514746713771128,
+      "p_value": 0.000999000999000999,
+      "n": 174
+    },
+    "sum_dxt": {
+      "a_partial": 0.32496701440595577,
+      "b_partial": 0.250493324154595,
+      "r2_full": 0.632576658354656,
+      "residual": 0.36742334164534396,
+      "p_value": 0.000999000999000999,
+      "n": 174
+    }
+  },
+  "across_season_reliability_corr": 0.9778284945089517,
+  "n_significant_after_fdr": 8,
+  "n_tests": 10
+}

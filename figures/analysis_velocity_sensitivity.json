@@ -1,0 +1,88 @@
+{
+  "dataset": "Metrica sample (both games)",
+  "n_eval_per_game": 500,
+  "baseline_key": "ma7_cap12",
+  "by_config": {
+    "central_cap12": {
+      "method": "central",
+      "cap": 12.0,
+      "n": 1000,
+      "overall_corr": 0.9918447073198529,
+      "overall_flip": 0.0294296875,
+      "fast_corr": 0.9563662198895913,
+      "fast_flip": 0.09041666666666667,
+      "n_fast": 25
+    },
+    "ma3_cap12": {
+      "method": "ma3",
+      "cap": 12.0,
+      "n": 997,
+      "overall_corr": 0.9919806194327927,
+      "overall_flip": 0.029179987880307588,
+      "fast_corr": 0.9613299080319515,
+      "fast_flip": 0.07965087890625,
+      "n_fast": 32
+    },
+    "ma7_cap12": {
+      "method": "ma7",
+      "cap": 12.0,
+      "n": 999,
+      "overall_corr": 0.9921735567987474,
+      "overall_flip": 0.028453583792125457,
+      "fast_corr": 0.9647302723116493,
+      "fast_flip": 0.08312500000000002,
+      "n_fast": 25
+    },
+    "ma11_cap12": {
+      "method": "ma11",
+      "cap": 12.0,
+      "n": 1000,
+      "overall_corr": 0.9924357870791188,
+      "overall_flip": 0.027998046875,
+      "fast_corr": 0.9577798413942821,
+      "fast_flip": 0.08608217592592593,
+      "n_fast": 18
+    },
+    "ma15_cap12": {
+      "method": "ma15",
+      "cap": 12.0,
+      "n": 1000,
+      "overall_corr": 0.992523025971202,
+      "overall_flip": 0.028708984375,
+      "fast_corr": 0.967307464603839,
+      "fast_flip": 0.07756076388888887,
+      "n_fast": 15
+    },
+    "savgol_cap12": {
+      "method": "savgol",
+      "cap": 12.0,
+      "n": 999,
+      "overall_corr": 0.992045229293142,
+      "overall_flip": 0.02880093635301969,
+      "fast_corr": 0.9663049716476334,
+      "fast_flip": 0.07369371639784945,
+      "n_fast": 31
+    },
+    "ma7_cap8": {
+      "method": "ma7",
+      "cap": 8.0,
+      "n": 999,
+      "overall_corr": 0.9921873299903373,
+      "overall_flip": 0.029238222597597598,
+      "fast_corr": 0.9645074447519688,
+      "fast_flip": 0.07572916666666667,
+      "n_fast": 25
+    },
+    "ma7_cap15": {
+      "method": "ma7",
+      "cap": 15.0,
+      "n": 999,
+      "overall_corr": 0.9924058743275733,
+      "overall_flip": 0.029338583375041707,
+      "fast_corr": 0.9596729747250805,
+      "fast_flip": 0.0875,
+      "n_fast": 20
+    }
+  },
+  "note": "Velocity-estimation sensitivity of the Chapter 5 fidelity gap. If overall and high-speed agreement are stable across estimators, the gap is a property of omitting velocity, not of the velocity estimator. ma7_cap12 is the default."
+}

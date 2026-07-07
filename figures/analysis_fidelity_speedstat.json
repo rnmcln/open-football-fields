@@ -1,0 +1,44 @@
+{
+  "dataset": "Metrica sample (both matches)",
+  "n_frames_evaluated": 1398,
+  "overall_corr": 0.992277949967056,
+  "stratifier_contrasts": {
+    "mean_speed": {
+      "spearman_rho_corr": -0.8809647763110976,
+      "spearman_p_corr": 0.0,
+      "spearman_rho_flip": 0.7834870897710743,
+      "spearman_p_flip": 9.75713352439092e-291,
+      "corr_lowest_quintile": 0.9987440902612251,
+      "corr_highest_quintile": 0.9810694683001295,
+      "flip_lowest_quintile": 0.012139601934523809,
+      "flip_highest_quintile": 0.05269717261904762,
+      "stratifier_lowest_quintile_mean": 0.6969469953733299,
+      "stratifier_highest_quintile_mean": 3.118604846193
+    },
+    "p90_speed": {
+      "spearman_rho_corr": -0.8665878143015205,
+      "spearman_p_corr": 0.0,
+      "spearman_rho_flip": 0.7568491414918563,
+      "spearman_p_flip": 4.131930177878802e-260,
+      "corr_lowest_quintile": 0.9987299654990581,
+      "corr_highest_quintile": 0.9809189979797274,
+      "flip_lowest_quintile": 0.012279110863095237,
+      "flip_highest_quintile": 0.05240652901785714,
+      "stratifier_lowest_quintile_mean": 1.255450002391176,
+      "stratifier_highest_quintile_mean": 4.892505242851894
+    },
+    "max_speed": {
+      "spearman_rho_corr": -0.7931448181149562,
+      "spearman_p_corr": 6.145536089278148e-303,
+      "spearman_rho_flip": 0.6792475680731046,
+      "spearman_p_flip": 8.585000231650536e-190,
+      "corr_lowest_quintile": 0.9986001562438881,
+      "corr_highest_quintile": 0.9823600394431823,
+      "flip_lowest_quintile": 0.01292085193452381,
+      "flip_highest_quintile": 0.04920712425595238,
+      "stratifier_lowest_quintile_mean": 1.7529469623233203,
+      "stratifier_highest_quintile_mean": 6.457943659318495
+    }
+  },
+  "note": "negative Spearman rho between a speed stratifier and the spatial correlation indicates agreement falls as that intensity measure rises; reported for mean, 90th-percentile, and maximum player speed"
+}

@@ -1,0 +1,72 @@
+{
+  "n_frames": 350,
+  "defaults": {
+    "reaction_time_s": 0.7,
+    "max_speed_m_s": 7.0,
+    "tti_temperature_s": 0.45
+  },
+  "fast_threshold_m_s": 3.0,
+  "results": {
+    "reaction_time_s": [
+      {
+        "value": 0.5,
+        "is_default": false,
+        "corr_all": 0.9956086831942919,
+        "corr_fast": 0.9859537214705701
+      },
+      {
+        "value": 0.7,
+        "is_default": true,
+        "corr_all": 0.9916052592406004,
+        "corr_fast": 0.973405161876092
+      },
+      {
+        "value": 0.9,
+        "is_default": false,
+        "corr_all": 0.986531537625418,
+        "corr_fast": 0.9578680365826163
+      }
+    ],
+    "max_speed_m_s": [
+      {
+        "value": 6.0,
+        "is_default": false,
+        "corr_all": 0.9897272996690198,
+        "corr_fast": 0.967735847429022
+      },
+      {
+        "value": 7.0,
+        "is_default": true,
+        "corr_all": 0.9916052592406004,
+        "corr_fast": 0.973405161876092
+      },
+      {
+        "value": 8.0,
+        "is_default": false,
+        "corr_all": 0.9930458607564394,
+        "corr_fast": 0.9778366752726255
+      }
+    ],
+    "tti_temperature_s": [
+      {
+        "value": 0.3,
+        "is_default": false,
+        "corr_all": 0.9861879884824544,
+        "corr_fast": 0.95734194061308
+      },
+      {
+        "value": 0.45,
+        "is_default": true,
+        "corr_all": 0.9916052592406004,
+        "corr_fast": 0.973405161876092
+      },
+      {
+        "value": 0.6,
+        "is_default": false,
+        "corr_all": 0.9944905611712572,
+        "corr_fast": 0.9823569513160985
+      }
+    ]
+  },
+  "conclusion": "Across all constant settings the overall agreement stays high (>0.98) and the fast-frame agreement stays markedly lower than the overall, so the speed-dependent fidelity gap is robust to the constants; reaction time has the largest effect, as expected since it scales the velocity-anticipation term."
+}

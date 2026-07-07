@@ -1,0 +1,172 @@
+{
+  "analysis": "coverage-bias estimation impact (internal proxy)",
+  "competitions": [
+    "UEFA Euro 2020",
+    "FIFA World Cup 2022"
+  ],
+  "min_visible_reference": 18,
+  "min_per_side": 2,
+  "grid": {
+    "nx": 48,
+    "ny": 32
+  },
+  "n_candidate_frames": 107935,
+  "n_sampled": 2500,
+  "n_used": 2500,
+  "per_competition_candidates": {
+    "UEFA Euro 2020": 47536,
+    "FIFA World Cup 2022": 60399
+  },
+  "k_removed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "by_k": {
+    "0": {
+      "spatial_corr": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 2500
+      }
+    },
+    "1": {
+      "spatial_corr": {
+        "mean": 0.7960223458384615,
+        "lo": 0.7880444699249868,
+        "hi": 0.8029816573855976,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.09243725283899225,
+        "lo": 0.08933014148663646,
+        "hi": 0.09488696009742645,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.06631400071086337,
+        "lo": 0.06455343764158622,
+        "hi": 0.06813277670257466,
+        "n": 2500
+      }
+    },
+    "2": {
+      "spatial_corr": {
+        "mean": 0.7218649586414156,
+        "lo": 0.7127550885313932,
+        "hi": 0.7321892914259847,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.1315314960218911,
+        "lo": 0.12784723910166898,
+        "hi": 0.13487650653734087,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.09203344830667272,
+        "lo": 0.09007493358324037,
+        "hi": 0.09458603777614266,
+        "n": 2500
+      }
+    },
+    "3": {
+      "spatial_corr": {
+        "mean": 0.665974918214075,
+        "lo": 0.6563966544321046,
+        "hi": 0.6754921037279294,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.1636698180760769,
+        "lo": 0.15975117376282547,
+        "hi": 0.16767828510488877,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.11272228602344155,
+        "lo": 0.1105104551959266,
+        "hi": 0.11519278626680068,
+        "n": 2500
+      }
+    },
+    "4": {
+      "spatial_corr": {
+        "mean": 0.6277525233568081,
+        "lo": 0.6163938498981029,
+        "hi": 0.6388562152349755,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.1854538130245554,
+        "lo": 0.1812967848206836,
+        "hi": 0.18931467477088817,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.12677145523937228,
+        "lo": 0.1240897058552165,
+        "hi": 0.12976919523679062,
+        "n": 2500
+      }
+    },
+    "5": {
+      "spatial_corr": {
+        "mean": 0.5884143247992759,
+        "lo": 0.5776427851109995,
+        "hi": 0.5995710485213086,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.20662727725920121,
+        "lo": 0.20216074028232234,
+        "hi": 0.21088005712590538,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.14168208486018893,
+        "lo": 0.13887814713075775,
+        "hi": 0.14430362993148324,
+        "n": 2500
+      }
+    },
+    "6": {
+      "spatial_corr": {
+        "mean": 0.5471188564781531,
+        "lo": 0.534596480054112,
+        "hi": 0.559714606843457,
+        "n": 2500
+      },
+      "flip_fraction": {
+        "mean": 0.2277444749504185,
+        "lo": 0.223489610377155,
+        "hi": 0.2319166013469233,
+        "n": 2500
+      },
+      "mean_abs_diff": {
+        "mean": 0.1559907302289542,
+        "lo": 0.15353509226672787,
+        "hi": 0.1590575158463096,
+        "n": 2500
+      }
+    }
+  },
+  "note": "Reduced control fields are compared with the well-observed reference inside the reference visible mask. Removing the farthest-from-ball players emulates the broadcast coverage bias. Internal proxy; the reference is a broadcast frame, not the latent state."
+}

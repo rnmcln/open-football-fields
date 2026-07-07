@@ -1,0 +1,19 @@
+{
+  "seed": 20260618,
+  "created_utc": "2026-07-07T13:42:23.207372+00:00",
+  "ffields_version": "0.1.0",
+  "python_version": "3.14.5",
+  "statsbomb_commit": null,
+  "libraries": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "pandas": "3.0.3",
+    "pyarrow": "24.0.0",
+    "shapely": "2.1.2",
+    "matplotlib": "3.11.0",
+    "sklearn": "1.9.0"
+  },
+  "extra": {
+    "stage": "pff_paired"
+  }
+}

@@ -1,0 +1,27 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Third-party match-data cache (downloaded on demand; not redistributed)
+data/cache/
+
+# Local build artefacts
+build/
+dist/
+*.egg
+
+# local run logs
+*.log

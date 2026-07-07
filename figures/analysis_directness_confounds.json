@@ -1,0 +1,24 @@
+{
+  "season": "English Premier League 2015/16",
+  "n_rows": 760,
+  "corr_directness_log_moves": -0.9081108136116666,
+  "directness_raw": {
+    "reliability_r": 0.9654885084697248,
+    "between_team_share": 0.47390564521224876,
+    "team_given_opponent": 0.4661631620551091,
+    "opponent_given_team": 0.05516252824354562
+  },
+  "directness_residual_on_volume": {
+    "reliability_r": 0.7090222954387573,
+    "between_team_share": 0.1116782015181771,
+    "team_given_opponent": 0.12180822957008097,
+    "opponent_given_team": 0.16965951929787237
+  },
+  "directness_residual_on_volume_and_home": {
+    "reliability_r": 0.6933238775535174,
+    "between_team_share": 0.11011275511858461,
+    "team_given_opponent": 0.12007905593561952,
+    "opponent_given_team": 0.17193052061340108
+  },
+  "note": "Residual directness is the OLS residual of directness on log move volume (and home). If the residual keeps high reliability and between-team share, directness carries a volume-independent team signal."
+}

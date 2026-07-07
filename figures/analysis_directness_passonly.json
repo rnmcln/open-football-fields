@@ -1,0 +1,26 @@
+{
+  "competition": "English Premier League 2015/16 (StatsBomb)",
+  "pass_and_carry": {
+    "n_rows": 760,
+    "reliability_r": 0.9654885084697248,
+    "reliability_ci": [
+      0.9469150267925381,
+      0.9862885701390789
+    ],
+    "between_team_share": 0.47390564521224876,
+    "team_share_given_opponent": 0.4661631620551091,
+    "opponent_share_given_team": 0.05516252824354562
+  },
+  "pass_only": {
+    "n_rows": 760,
+    "reliability_r": 0.9497905710379275,
+    "reliability_ci": [
+      0.9239760989464628,
+      0.9798636771375127
+    ],
+    "between_team_share": 0.46832243885191505,
+    "team_share_given_opponent": 0.45848554080690795,
+    "opponent_share_given_team": 0.06695278802544902
+  },
+  "note": "pass-only drops carries to match the Wyscout event taxonomy; close agreement means the cross-provider directness comparison is on a like operational definition"
+}

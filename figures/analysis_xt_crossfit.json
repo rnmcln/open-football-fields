@@ -1,0 +1,23 @@
+{
+  "grid": [
+    16,
+    12
+  ],
+  "corr_combined_vs_shipped": 0.8563218309811161,
+  "corr_wc_vs_euro_surface": 0.9758255124280606,
+  "by_competition": {
+    "WC2022": {
+      "n_team_matches": 128,
+      "corr_endogenous_vs_crossfit_descriptor": 0.9983636496359236,
+      "between_team_share_endogenous": 0.36953378499075934,
+      "between_team_share_crossfit": 0.3704764962924819
+    },
+    "Euro2020": {
+      "n_team_matches": 102,
+      "corr_endogenous_vs_crossfit_descriptor": 0.998736030331827,
+      "between_team_share_endogenous": 0.3999176854293404,
+      "between_team_share_crossfit": 0.38833187803246216
+    }
+  },
+  "note": "Standard xT fitted from cached SPADL, attack-normalised per team-period. Cross-fit values a competition's team-matches with the surface trained on the other competition. High agreement means the threat-descriptor conclusions do not depend on the surface being fitted on the same tournament."
+}

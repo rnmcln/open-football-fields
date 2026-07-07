@@ -1,0 +1,130 @@
+{
+  "competition": "UEFA Euro 2020",
+  "n_matches": 51,
+  "n_frames": 166871,
+  "visible_fraction": {
+    "n": 166871,
+    "mean": 0.28406620644209196,
+    "median": 0.26846712727205635,
+    "p10": 0.18003205397531197,
+    "p90": 0.41712549524543735,
+    "min": 0.03644514914045205,
+    "max": 0.899306918666717
+  },
+  "n_players": {
+    "n": 166871,
+    "mean": 15.210965356472965,
+    "median": 16.0,
+    "p10": 10.0,
+    "p90": 20.0,
+    "min": 1.0,
+    "max": 22.0
+  },
+  "fraction_frames_all_22": 0.00022772081428169065,
+  "fraction_frames_ge_20": 0.1123202953179402,
+  "by_event_type": {
+    "Ball Receipt*": {
+      "n": 46718,
+      "vis_frac_mean": 0.2901568652535885,
+      "n_players_mean": 15.176848323986473
+    },
+    "Ball Recovery": {
+      "n": 3903,
+      "vis_frac_mean": 0.25432912742265507,
+      "n_players_mean": 14.746861388675377
+    },
+    "Block": {
+      "n": 1545,
+      "vis_frac_mean": 0.23841867128688646,
+      "n_players_mean": 15.181229773462784
+    },
+    "Carry": {
+      "n": 39661,
+      "vis_frac_mean": 0.2911334642990497,
+      "n_players_mean": 15.223821890522176
+    },
+    "Clearance": {
+      "n": 2097,
+      "vis_frac_mean": 0.2236732128741925,
+      "n_players_mean": 15.198855507868384
+    },
+    "Dispossessed": {
+      "n": 871,
+      "vis_frac_mean": 0.2611792846055632,
+      "n_players_mean": 15.087256027554535
+    },
+    "Dribble": {
+      "n": 1247,
+      "vis_frac_mean": 0.26130157963656014,
+      "n_players_mean": 15.010425020048116
+    },
+    "Dribbled Past": {
+      "n": 768,
+      "vis_frac_mean": 0.2662372874685266,
+      "n_players_mean": 15.048177083333334
+    },
+    "Duel": {
+      "n": 2874,
+      "vis_frac_mean": 0.26315784485502,
+      "n_players_mean": 15.402226861517049
+    },
+    "Foul Committed": {
+      "n": 1204,
+      "vis_frac_mean": 0.2727153523220388,
+      "n_players_mean": 15.358803986710964
+    },
+    "Foul Won": {
+      "n": 1147,
+      "vis_frac_mean": 0.2738751545779366,
+      "n_players_mean": 15.38622493461203
+    },
+    "Goal Keeper": {
+      "n": 794,
+      "vis_frac_mean": 0.1576002127650196,
+      "n_players_mean": 12.988664987405542
+    },
+    "Interception": {
+      "n": 1343,
+      "vis_frac_mean": 0.2711585531654214,
+      "n_players_mean": 15.08860759493671
+    },
+    "Miscontrol": {
+      "n": 1110,
+      "vis_frac_mean": 0.2652118606579381,
+      "n_players_mean": 15.103603603603604
+    },
+    "Pass": {
+      "n": 46237,
+      "vis_frac_mean": 0.2905419042614335,
+      "n_players_mean": 15.319203235504034
+    },
+    "Pressure": {
+      "n": 13999,
+      "vis_frac_mean": 0.27420417928495827,
+      "n_players_mean": 15.24523180227159
+    },
+    "Shot": {
+      "n": 1215,
+      "vis_frac_mean": 0.18623106149362992,
+      "n_players_mean": 14.602469135802469
+    }
+  },
+  "by_third": {
+    "att": {
+      "n": 41755,
+      "vis_frac_mean": 0.24192690954780563,
+      "n_players_mean": 15.425386181295654
+    },
+    "def": {
+      "n": 41774,
+      "vis_frac_mean": 0.2741379722328737,
+      "n_players_mean": 13.671709675874947
+    },
+    "mid": {
+      "n": 83342,
+      "vis_frac_mean": 0.31015471400942674,
+      "n_players_mean": 15.875068992824746
+    }
+  },
+  "per_match_fraction_all22_max": 0.0024067388688327317
+}

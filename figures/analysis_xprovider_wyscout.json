@@ -1,0 +1,93 @@
+{
+  "provider": "Wyscout open (Pappalardo et al. 2019)",
+  "competition": "English Premier League 2017/18",
+  "n_team_match_rows": 748,
+  "n_teams": 20,
+  "median_matches_per_team": 38,
+  "n_matches_cached": 380,
+  "n_matches_total": 380,
+  "note": "moves are passes (Wyscout has no explicit carries); provider-independent descriptors only",
+  "reliability": {
+    "directness": {
+      "r": 0.954850878815152,
+      "p": 0.0004997501249375312,
+      "lo": 0.8963667174625295,
+      "hi": 0.9900423080055297
+    },
+    "att_third_frac": {
+      "r": 0.670202837490452,
+      "p": 0.001999000499750125,
+      "lo": 0.37970361511272427,
+      "hi": 0.8745848966989955
+    },
+    "entropy_end": {
+      "r": 0.794926361415555,
+      "p": 0.0004997501249375312,
+      "lo": 0.4641280882851181,
+      "hi": 0.9561140712171022
+    }
+  },
+  "discriminant": {
+    "directness": {
+      "between_share": 0.4201912160385873,
+      "null_mean": 0.02520499480323146,
+      "p_value": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "att_third_frac": {
+      "between_share": 0.08548253155951274,
+      "null_mean": 0.02525743402711851,
+      "p_value": 0.0004997501249375312,
+      "n_perm": 2000
+    },
+    "entropy_end": {
+      "between_share": 0.1881648648194622,
+      "null_mean": 0.025496637856627417,
+      "p_value": 0.0004997501249375312,
+      "n_perm": 2000
+    }
+  },
+  "team_vs_opponent": {
+    "directness": {
+      "a_partial": 0.408141446715685,
+      "b_partial": 0.10778234383137031,
+      "r2_full": 0.5279735598699575,
+      "residual": 0.47202644013004247,
+      "p_value": 0.000999000999000999,
+      "n": 748
+    },
+    "att_third_frac": {
+      "a_partial": 0.08986419837541149,
+      "b_partial": 0.0942323525819363,
+      "r2_full": 0.17971488414144887,
+      "residual": 0.8202851158585511,
+      "p_value": 0.000999000999000999,
+      "n": 748
+    },
+    "entropy_end": {
+      "a_partial": 0.18014443030426142,
+      "b_partial": 0.14307625107971256,
+      "r2_full": 0.33124111589917016,
+      "residual": 0.6687588841008298,
+      "p_value": 0.000999000999000999,
+      "n": 748
+    }
+  },
+  "statsbomb_pl_2015_16": {
+    "directness": {
+      "r": 0.9654885084697248,
+      "team": 0.4661631620551091,
+      "eta2": 0.47390564521224876
+    },
+    "att_third_frac": {
+      "r": 0.8205292963502289,
+      "team": 0.1990818616133001,
+      "eta2": 0.20300297320724675
+    },
+    "entropy_end": {
+      "r": 0.8765669331415306,
+      "team": 0.2348006012703564,
+      "eta2": 0.2348736661010087
+    }
+  }
+}

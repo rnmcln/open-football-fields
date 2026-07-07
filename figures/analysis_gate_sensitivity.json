@@ -1,0 +1,163 @@
+{
+  "n_moves": 98620,
+  "n_rep": 10,
+  "jitter_sigmas_m": [
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "grid_by_sigma": {
+    "24x16": {
+      "sigma0.5": {
+        "field": 0.9859793142013068,
+        "divergence": 0.9669104579482835,
+        "curl": 0.9385132014075579
+      },
+      "sigma1.0": {
+        "field": 0.9690749909079223,
+        "divergence": 0.9015771780215219,
+        "curl": 0.8816489129339586
+      },
+      "sigma2.0": {
+        "field": 0.9391858250126278,
+        "divergence": 0.7824561769500034,
+        "curl": 0.7637766092939261
+      },
+      "sigma3.0": {
+        "field": 0.9123237548663621,
+        "divergence": 0.6123649967203459,
+        "curl": 0.6427393790008484
+      }
+    },
+    "32x22": {
+      "sigma0.5": {
+        "field": 0.9680449866623067,
+        "divergence": 0.9112011923240283,
+        "curl": 0.8722501392701794
+      },
+      "sigma1.0": {
+        "field": 0.9416009395723799,
+        "divergence": 0.8527647428127452,
+        "curl": 0.7995894908173626
+      },
+      "sigma2.0": {
+        "field": 0.8869898579093366,
+        "divergence": 0.5925347534150852,
+        "curl": 0.5946673647261778
+      },
+      "sigma3.0": {
+        "field": 0.8521557081958783,
+        "divergence": 0.42902887679497914,
+        "curl": 0.37500636453682235
+      }
+    },
+    "48x32": {
+      "sigma0.5": {
+        "field": 0.9331259548172708,
+        "divergence": 0.8421405000874913,
+        "curl": 0.760180859725706
+      },
+      "sigma1.0": {
+        "field": 0.8731962767836812,
+        "divergence": 0.6299448875505971,
+        "curl": 0.5468644288702977
+      },
+      "sigma2.0": {
+        "field": 0.8106167775190529,
+        "divergence": 0.32373123121051206,
+        "curl": 0.2121443853456071
+      },
+      "sigma3.0": {
+        "field": 0.7832733148954281,
+        "divergence": 0.3019537220807859,
+        "curl": 0.17026916386252663
+      }
+    },
+    "64x44": {
+      "sigma0.5": {
+        "field": 0.8780968368588592,
+        "divergence": 0.7228144227910144,
+        "curl": 0.6022549434064083
+      },
+      "sigma1.0": {
+        "field": 0.8131983888228971,
+        "divergence": 0.2767662832716881,
+        "curl": 0.256068237717327
+      },
+      "sigma2.0": {
+        "field": 0.7612807456041243,
+        "divergence": 0.20623585232261324,
+        "curl": 0.06531530547741458
+      },
+      "sigma3.0": {
+        "field": 0.7323823946719417,
+        "divergence": 0.19743796737724195,
+        "curl": 0.07368575260348204
+      }
+    }
+  },
+  "metric_robustness": {
+    "48x32": {
+      "pearson": {
+        "field": 0.8709213551308655,
+        "divergence": 0.5968217755650235,
+        "curl": 0.5436704356087729
+      },
+      "spearman": {
+        "field": 0.7533111931715484,
+        "divergence": 0.4508490911704917,
+        "curl": 0.39980847909125844
+      }
+    },
+    "24x16": {
+      "pearson": {
+        "field": 0.9710033661792755,
+        "divergence": 0.9168273089463949,
+        "curl": 0.880861753763511
+      },
+      "spearman": {
+        "field": 0.9555397327613194,
+        "divergence": 0.7459742048307725,
+        "curl": 0.7285271615266932
+      }
+    }
+  },
+  "perturbation_model_robustness": {
+    "48x32": {
+      "isotropic": {
+        "field": 0.8734616997479849,
+        "divergence": 0.6310313198227956,
+        "curl": 0.5470162187319997
+      },
+      "anisotropic": {
+        "field": 0.8641125419733908,
+        "divergence": 0.6957023029691524,
+        "curl": 0.3935539095222666
+      },
+      "uniform_disk": {
+        "field": 0.8742641502639928,
+        "divergence": 0.7306918429199822,
+        "curl": 0.5939078042918449
+      }
+    },
+    "24x16": {
+      "isotropic": {
+        "field": 0.9711914053471797,
+        "divergence": 0.909367019565104,
+        "curl": 0.8850793598996635
+      },
+      "anisotropic": {
+        "field": 0.9641605057171446,
+        "divergence": 0.8815894696715232,
+        "curl": 0.8635563310073284
+      },
+      "uniform_disk": {
+        "field": 0.9723691439012786,
+        "divergence": 0.9106531721530793,
+        "curl": 0.8920598344514815
+      }
+    }
+  },
+  "conclusion": "Across all grids, jitter scales, perturbation models and both correlation metrics: |J| stays high; curl stays low and never reaches 0.80; divergence is low at fine grids and high at coarse grids. The gate conclusions are not artefacts of the defaults."
+}

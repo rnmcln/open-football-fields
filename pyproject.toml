@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ffields"
+version = "0.1.0"
+description = "Field-theoretic and information-theoretic representations of collective behaviour in association football, under partial observation, from open data."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENCE" }
+authors = [{ name = "Aaron Lawson McLean" }]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "pandas>=2.1",
+  "pyarrow>=14",
+  "requests>=2.31",
+  "shapely>=2.0",
+  "matplotlib>=3.8",
+  "mplsoccer>=1.2",
+  "scikit-learn>=1.3",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-cov>=4.1"]
+# Fitting the expected-threat (xT) surface only. Kept separate because
+# socceraction pins pandas<3; the ffields runtime consumes the fitted artefact
+# (data/models/xt_grid.json) and carries no socceraction dependency. Run
+# scripts/fit_xt.py in an environment with this extra installed.
+xt = ["socceraction>=1.5", "statsbombpy>=1.11"]
+# Extended statistical analyses (count models in the descriptor study scripts).
+stats = ["statsmodels>=0.14"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+  "network: test requires internet access to the StatsBomb open-data host",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

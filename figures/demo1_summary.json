@@ -1,0 +1,27 @@
+{
+  "match_id": 3788758,
+  "event_id": "c59bcf57-cbad-44d5-98ce-7abf92534aea",
+  "event_team": "Ukraine",
+  "event_type": "Shot",
+  "freeze_frame_n_players": 19,
+  "control_meta": {
+    "model": "positional (zero-velocity) time-to-intercept",
+    "max_speed_m_s": 7.0,
+    "reaction_time_s": 0.7,
+    "tti_temperature_s": 0.45,
+    "n_attackers": 8,
+    "n_defenders": 11,
+    "n_visible": 19
+  },
+  "control_visible_fraction": 0.11002604166666667,
+  "control_mean_in_visible": 0.4592354967473515,
+  "control_spatial_entropy_bits": 7.230233228300291,
+  "density_n_pass_origins": 925,
+  "density_integral": 1.0,
+  "density_spatial_entropy_bits": 10.370106024836943,
+  "grid": {
+    "nx": 48,
+    "ny": 32,
+    "cell_area_m2": 4.6484375
+  }
+}

@@ -1,0 +1,85 @@
+# Default configuration for the ffields pipeline.
+# All parameters that affect numerical results live here so that runs are
+# reproducible and sensitivity analyses (e.g. grid resolution) are explicit.
+
+seed: 20260618  # global RNG seed; stamped into provenance
+
+paths:
+  data_cache: "data/cache"        # gitignored; on-demand StatsBomb cache
+  figures: "figures"
+
+pitch:
+  # StatsBomb native coordinate system (the data's own units).
+  statsbomb_length: 120.0   # x in [0, 120]
+  statsbomb_width: 80.0     # y in [0, 80]
+  # Metric target for physically interpretable distances/speeds.
+  metric_length: 105.0      # x in metres
+  metric_width: 68.0        # y in metres
+
+grid:
+  # Primary resolution. Sensitivity to (nx, ny) is a required RQ2 analysis;
+  # treat these as defaults, not as settled choices.
+  nx: 48
+  ny: 32
+
+control:
+  # PositionalPitchControl: degenerate (zero-velocity) case of a
+  # time-to-intercept model. Players assumed at rest (360 freeze frames carry
+  # NO velocity), moving at constant max speed after a reaction delay.
+  max_speed_m_s: 7.0        # plausible outfield sprint ceiling [Inf]
+  reaction_time_s: 0.7      # reaction + acceleration lump [Inf]
+  tti_temperature_s: 0.45   # softmin temperature on arrival times [Prop]
+  keeper_included: true
+
+density:
+  # Gaussian KDE bandwidth rule for event-density fields.
+  bandwidth: "scott"        # {"scott","silverman", or float in metric units}
+
+threat:
+  # Expected threat (xT, Singh 2019). The surface is fit offline by
+  # scripts/fit_xt.py (optional [xt] extra) and consumed as an artefact; the
+  # runtime carries no socceraction dependency. See data/models/xt_grid.json.
+  artefact: "data/models/xt_grid.json"
+  grid_l_x: 16              # native xT length bins (Singh default)
+  grid_w_y: 12              # native xT width bins (Singh default)
+
+flow:
+  # Possession-flow vector field J (mean per-cell move displacement).
+  min_count: 30             # min originating moves for a cell to be reported [Prop]
+  bootstrap_n: 200          # bootstrap resamples for divergence CIs [Prop]
+  coarse_nx: 24             # coarser grid for the operator-recovery check
+  coarse_ny: 16
+
+robustness:
+  # RQ2 anti-decoration gate. Thresholds are explicit [Prop] defaults, not
+  # settled truths; numbers are always reported so failures are negative findings.
+  jitter_sigmas_m: [0.5, 1.0, 2.0]   # input-noise levels (annotation error scale)
+  ref_sigma_m: 1.0                    # reference level at which pass/fail is decided
+  min_mean_corr: 0.80                 # spatial-correlation gate under jitter
+  max_resolution_cv: 0.25             # coeff. of variation gate across resolutions
+  n_rep: 15                           # repetitions per jitter level
+  resolutions: [[32, 22], [48, 32], [64, 44], [80, 54]]
+
+batch:
+  # Primary competitions for multi-match ingestion (men's open data, strong
+  # coverage; team-level analysis). competition_id, season_id, label.
+  competitions:
+    - [55, 43, "UEFA Euro 2020"]
+    - [43, 106, "FIFA World Cup 2022"]
+  demo_competition: [55, 43, "UEFA Euro 2020"]
+
+metrica:
+  # Continuous-tracking sample used to quantify the open-data fidelity gap.
+  game: 1                       # Metrica sample game id
+  n_eval_frames: 800            # frames sampled to compare kinematic vs position-only
+  max_speed_cap_m_s: 12.0       # clip finite-difference velocity spikes
+  speed_bins_m_s: [0.0, 1.0, 2.0, 3.0, 4.0, 12.0]  # frame-mean-speed strata
+
+information:
+  # Rate-distortion team signatures and information-gain descriptors.
+  signature_ks: [2, 4, 8, 16, 32, 64]   # codebook sizes swept for the R-D curve
+  signature_targets_m: [5.0, 10.0]      # distortion targets for scalar signatures
+  min_moves_per_team: 1500              # teams below this are excluded as too sparse
+
+statsbomb:
+  base_url: "https://raw.githubusercontent.com/statsbomb/open-data/master/data"

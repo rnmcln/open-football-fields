@@ -1,0 +1,100 @@
+{
+  "n_team_match_rows": 229,
+  "n_games": 115,
+  "outcome_note": "summed StatsBomb xG per team-match (native shot.statsbomb_xg); Gamma GLM with log link; identical rows as the Poisson shot model",
+  "shots_vs_xg_spearman": {
+    "rho": 0.7573390984513806,
+    "p_value": 6.781801026920997e-44
+  },
+  "sum_xg_summary": {
+    "min": 0.093042789,
+    "median": 1.163511151,
+    "max": 6.9280690840000005
+  },
+  "incremental_value": {
+    "mean_xt_end": {
+      "shots_poisson": {
+        "coef": 0.25716808435252575,
+        "p_value": 5.330221782246123e-41,
+        "lr_stat_vs_baseline": 172.84945846478035,
+        "lr_p": 1.765411002945485e-39,
+        "coef_with_opp_control": 0.23754738049004387,
+        "p_with_opp_control": 4.771786720640204e-33
+      },
+      "xg_gamma_log": {
+        "coef": 0.25403480784905585,
+        "p_value": 2.378990772265004e-06,
+        "lr_stat_vs_baseline": 15.73607176613882,
+        "lr_p": 7.282214151155684e-05,
+        "aic_baseline": 592.3873129748745,
+        "aic_with_descriptor": 578.6512412087357,
+        "coef_with_opp_control": 0.203405336130141,
+        "p_with_opp_control": 4.6519473842380765e-05,
+        "deviance_explained_increment": 0.07901579517500713
+      }
+    },
+    "directness": {
+      "shots_poisson": {
+        "coef": 0.28551980681004474,
+        "p_value": 1.5030068511890586e-17,
+        "lr_stat_vs_baseline": 70.80223870604846,
+        "lr_p": 3.9488870966088604e-17,
+        "coef_with_opp_control": 0.2685379160769375,
+        "p_with_opp_control": 1.1422645097172089e-15
+      },
+      "xg_gamma_log": {
+        "coef": 0.4416463690249534,
+        "p_value": 6.249293582076643e-08,
+        "lr_stat_vs_baseline": 27.440542942960406,
+        "lr_p": 1.61999127836262e-07,
+        "aic_baseline": 592.3873129748745,
+        "aic_with_descriptor": 566.9467700319141,
+        "coef_with_opp_control": 0.39702726807408517,
+        "p_with_opp_control": 1.4685245327522766e-07,
+        "deviance_explained_increment": 0.09039922948866055
+      }
+    },
+    "att_third_frac": {
+      "shots_poisson": {
+        "coef": 0.21590771403184486,
+        "p_value": 1.3763546055255081e-28,
+        "lr_stat_vs_baseline": 122.26938786475148,
+        "lr_p": 2.0152961341245682e-28,
+        "coef_with_opp_control": 0.20003206410754157,
+        "p_with_opp_control": 4.878624941689817e-24
+      },
+      "xg_gamma_log": {
+        "coef": 0.1698516345172567,
+        "p_value": 0.0013340062591381508,
+        "lr_stat_vs_baseline": 6.127743822217781,
+        "lr_p": 0.013307658820364814,
+        "aic_baseline": 592.3873129748745,
+        "aic_with_descriptor": 588.2595691526567,
+        "coef_with_opp_control": 0.13468190040758468,
+        "p_with_opp_control": 0.005280416008353761,
+        "deviance_explained_increment": 0.034354112039529386
+      }
+    },
+    "sum_dxt": {
+      "shots_poisson": {
+        "coef": 0.22801455174794644,
+        "p_value": 5.4278485146886675e-25,
+        "lr_stat_vs_baseline": 103.017741219056,
+        "lr_p": 3.3216033451228625e-24,
+        "coef_with_opp_control": 0.20156711602415775,
+        "p_with_opp_control": 1.1410865386841051e-18
+      },
+      "xg_gamma_log": {
+        "coef": 0.37096416618532074,
+        "p_value": 5.779397172702424e-10,
+        "lr_stat_vs_baseline": 35.30768200236025,
+        "lr_p": 2.8151945012138134e-09,
+        "aic_baseline": 592.3873129748745,
+        "aic_with_descriptor": 559.0796309725142,
+        "coef_with_opp_control": 0.30673569354543706,
+        "p_with_opp_control": 8.844615651239688e-08,
+        "deviance_explained_increment": 0.12114347828156821
+      }
+    }
+  }
+}

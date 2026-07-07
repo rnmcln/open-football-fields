@@ -1,0 +1,54 @@
+{
+  "n_frames": 4000,
+  "design": "11v11 uniform-random positions, random-direction Rayleigh-speed velocities; kinematic vs zero-velocity control, same model as Chapter 5",
+  "mechanical_null_by_band": {
+    "0-1": {
+      "n": 778,
+      "corr_mean": 0.9985768031907492,
+      "flip_mean": 0.013738820158526134
+    },
+    "1-2": {
+      "n": 982,
+      "corr_mean": 0.9924152221763155,
+      "flip_mean": 0.033082463509843854
+    },
+    "2-3": {
+      "n": 941,
+      "corr_mean": 0.9797630214660288,
+      "flip_mean": 0.05413885383457315
+    },
+    "3-4": {
+      "n": 919,
+      "corr_mean": 0.9623926889322049,
+      "flip_mean": 0.0747387332245194
+    },
+    ">4": {
+      "n": 380,
+      "corr_mean": 0.9412761126788732,
+      "flip_mean": 0.09480879934210526
+    }
+  },
+  "real_metrica_by_band": {
+    "0-1": {
+      "corr_mean": 0.9986408382045038,
+      "flip_mean": 0.01236235119047619
+    },
+    "1-2": {
+      "corr_mean": 0.9946432203544981,
+      "flip_mean": 0.025094858458390178
+    },
+    "2-3": {
+      "corr_mean": 0.9888321458424673,
+      "flip_mean": 0.03947358630952381
+    },
+    "3-4": {
+      "corr_mean": 0.979799974811937,
+      "flip_mean": 0.05511623475609756
+    },
+    ">4": {
+      "corr_mean": 0.9638390807556597,
+      "flip_mean": 0.0782520325203252
+    }
+  },
+  "note": "The mechanical null is the speed-discrepancy relation with no football structure. Comparison with the real curve shows how much of the direction is algebraically forced (shared) versus data-specific (any gap)."
+}

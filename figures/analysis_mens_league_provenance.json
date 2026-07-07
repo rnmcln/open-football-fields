@@ -1,0 +1,20 @@
+{
+  "seed": 20260618,
+  "created_utc": "2026-06-19T16:58:14.385983+00:00",
+  "ffields_version": "0.1.0",
+  "python_version": "3.12.13",
+  "statsbomb_commit": "b0bc9f22dd77c206ddedc1d742893b3bbe64baec",
+  "libraries": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3",
+    "pyarrow": "24.0.0",
+    "shapely": "2.1.2",
+    "matplotlib": "3.11.0",
+    "sklearn": "1.9.0"
+  },
+  "extra": {
+    "stage": "mens_league",
+    "competition": "PL2015_16"
+  }
+}

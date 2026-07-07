@@ -1,0 +1,129 @@
+{
+  "n_team_match_tournaments": 230,
+  "descriptor_correlations": {
+    "mean_xt_end": {
+      "mean_xt_end": 1.0,
+      "sum_dxt": 0.674,
+      "entropy_end": 0.03,
+      "directness": 0.087,
+      "att_third_frac": 0.885,
+      "n_moves": 0.229
+    },
+    "sum_dxt": {
+      "mean_xt_end": 0.674,
+      "sum_dxt": 1.0,
+      "entropy_end": -0.193,
+      "directness": -0.196,
+      "att_third_frac": 0.475,
+      "n_moves": 0.596
+    },
+    "entropy_end": {
+      "mean_xt_end": 0.03,
+      "sum_dxt": -0.193,
+      "entropy_end": 1.0,
+      "directness": 0.551,
+      "att_third_frac": 0.094,
+      "n_moves": -0.564
+    },
+    "directness": {
+      "mean_xt_end": 0.087,
+      "sum_dxt": -0.196,
+      "entropy_end": 0.551,
+      "directness": 1.0,
+      "att_third_frac": 0.078,
+      "n_moves": -0.758
+    },
+    "att_third_frac": {
+      "mean_xt_end": 0.885,
+      "sum_dxt": 0.475,
+      "entropy_end": 0.094,
+      "directness": 0.078,
+      "att_third_frac": 1.0,
+      "n_moves": 0.19
+    },
+    "n_moves": {
+      "mean_xt_end": 0.229,
+      "sum_dxt": 0.596,
+      "entropy_end": -0.564,
+      "directness": -0.758,
+      "att_third_frac": 0.19,
+      "n_moves": 1.0
+    }
+  },
+  "shot_count_models": {
+    "mean_xt_end": {
+      "coef": 0.2599556484681619,
+      "p_value": 1.0231712081515313e-41,
+      "lr_stat_vs_baseline": 175.82090768261673,
+      "lr_p": 3.962268272430755e-40,
+      "mcfadden_pseudo_r2": 0.12139173595227803,
+      "coef_with_opp_control": 0.2069330663991268,
+      "p_with_opp_control": 7.443470081108146e-20
+    },
+    "directness": {
+      "coef": 0.2888616771093507,
+      "p_value": 9.557190772999218e-18,
+      "lr_stat_vs_baseline": 71.62654300993063,
+      "lr_p": 2.6003505673085338e-17,
+      "mcfadden_pseudo_r2": 0.04945299458885477,
+      "coef_with_opp_control": 0.24466373926666363,
+      "p_with_opp_control": 2.2686531096022943e-13
+    },
+    "att_third_frac": {
+      "coef": 0.21684222382294532,
+      "p_value": 8.133699945761686e-29,
+      "lr_stat_vs_baseline": 123.27093549704773,
+      "lr_p": 1.2164992318611602e-28,
+      "mcfadden_pseudo_r2": 0.08510974633039847,
+      "coef_with_opp_control": 0.15716009374630296,
+      "p_with_opp_control": 2.7762324294942577e-13
+    },
+    "sum_dxt": {
+      "coef": 0.22928387199022462,
+      "p_value": 4.426590086800899e-25,
+      "lr_stat_vs_baseline": 103.39456657881783,
+      "lr_p": 2.7462685539608877e-24,
+      "mcfadden_pseudo_r2": 0.07138653809985429,
+      "coef_with_opp_control": 0.1656195159151391,
+      "p_with_opp_control": 1.9066191671793948e-12
+    },
+    "_diagnostics": {
+      "poisson_dispersion": 2.081963526473392,
+      "interpretation": "dispersion near 1 supports Poisson; >1 indicates overdispersion, hence the negative-binomial check",
+      "negbin_fitted": true,
+      "n": 230
+    }
+  },
+  "reliability_bootstrap_ci_fawsl1819": {
+    "mean_xt_end": {
+      "r": 0.7976592916783314,
+      "lo": 0.39575461951409935,
+      "hi": 0.9475707443361201,
+      "team_share": 0.14653055556824668
+    },
+    "sum_dxt": {
+      "r": 0.8714072241695389,
+      "lo": 0.7681826079692088,
+      "hi": 0.9564993955265765,
+      "team_share": 0.2649994080521906
+    },
+    "entropy_end": {
+      "r": -0.2055937694272429,
+      "lo": -0.7262677666419175,
+      "hi": 0.45911981716514205,
+      "team_share": 0.048676330672255186
+    },
+    "directness": {
+      "r": 0.9733402643244853,
+      "lo": 0.9232792901419595,
+      "hi": 0.9925154735759505,
+      "team_share": 0.6287919285996529
+    },
+    "att_third_frac": {
+      "r": 0.8589870586468659,
+      "lo": 0.5601762450167278,
+      "hi": 0.9872089575175874,
+      "team_share": 0.12848382273964254
+    }
+  }
+}

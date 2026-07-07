@@ -1,0 +1,258 @@
+{
+  "fidelity_gap": {
+    "metrica_game": 1,
+    "n_frames_total": 145006,
+    "n_frames_evaluated": 799,
+    "overall_mean_corr_kin_vs_pos": 0.9914902544781299,
+    "overall_median_corr": 0.9941568824762612,
+    "overall_mean_flip_fraction": 0.03078229297037964,
+    "by_speed_bin": [
+      {
+        "bin": "(0.0, 1.0]",
+        "n": 186,
+        "mean_corr": 0.9985747760664063,
+        "mean_flip": 0.01288782482078853
+      },
+      {
+        "bin": "(1.0, 2.0]",
+        "n": 353,
+        "mean_corr": 0.9940747593863523,
+        "mean_flip": 0.025934696647780923
+      },
+      {
+        "bin": "(2.0, 3.0]",
+        "n": 172,
+        "mean_corr": 0.9879906950464251,
+        "mean_flip": 0.04232527858527132
+      },
+      {
+        "bin": "(3.0, 4.0]",
+        "n": 62,
+        "mean_corr": 0.9765962933046847,
+        "mean_flip": 0.060032342069892476
+      },
+      {
+        "bin": "(4.0, 12.0]",
+        "n": 26,
+        "mean_corr": 0.9643863532083237,
+        "mean_flip": 0.07850060096153846
+      }
+    ],
+    "high_speed_frame": 128119,
+    "high_speed_frame_mean_speed_m_s": 5.239588645145175,
+    "high_speed_frame_corr": 0.9266951394751239
+  },
+  "information_layer": {
+    "n_teams": 24,
+    "signature_targets_m": [
+      5.0,
+      10.0
+    ],
+    "max_signature_jitter_cv": 0.004481696730209728,
+    "kl_vs_reference_bits_range": [
+      0.01246219049491685,
+      0.2522101408795062
+    ],
+    "most_distinct_team": "Hungary",
+    "least_distinct_team": "England",
+    "teams": [
+      {
+        "team": "Hungary",
+        "n_moves": 1661,
+        "rate_bits_at_5m": 5.076709953684069,
+        "rate_bits_at_10m": 3.3202467553156207,
+        "kl_vs_reference_bits": 0.2522101408795062,
+        "mean_self_info_bits": 10.601809173341117
+      },
+      {
+        "team": "Slovakia",
+        "n_moves": 2552,
+        "rate_bits_at_5m": 5.181223781873892,
+        "rate_bits_at_10m": 3.348116310247108,
+        "kl_vs_reference_bits": 0.13180353853339072,
+        "mean_self_info_bits": 10.43219975285944
+      },
+      {
+        "team": "Finland",
+        "n_moves": 2126,
+        "rate_bits_at_5m": 5.195291871003975,
+        "rate_bits_at_10m": 3.345548958126239,
+        "kl_vs_reference_bits": 0.08490171366527066,
+        "mean_self_info_bits": 10.406094441683553
+      },
+      {
+        "team": "Poland",
+        "n_moves": 2416,
+        "rate_bits_at_5m": 5.092481902607422,
+        "rate_bits_at_10m": 3.2770613094243615,
+        "kl_vs_reference_bits": 0.07284189528150344,
+        "mean_self_info_bits": 10.342054261134486
+      },
+      {
+        "team": "Turkey",
+        "n_moves": 2622,
+        "rate_bits_at_5m": 5.192990566498427,
+        "rate_bits_at_10m": 3.3294082096699813,
+        "kl_vs_reference_bits": 0.05288701094008254,
+        "mean_self_info_bits": 10.394892137204963
+      },
+      {
+        "team": "Netherlands",
+        "n_moves": 4123,
+        "rate_bits_at_5m": 5.161015688623646,
+        "rate_bits_at_10m": 3.3042987074126295,
+        "kl_vs_reference_bits": 0.04762050038938729,
+        "mean_self_info_bits": 10.342672049579928
+      },
+      {
+        "team": "Sweden",
+        "n_moves": 2777,
+        "rate_bits_at_5m": 5.216830017055024,
+        "rate_bits_at_10m": 3.3704958887411385,
+        "kl_vs_reference_bits": 0.045866720779892525,
+        "mean_self_info_bits": 10.364405505999425
+      },
+      {
+        "team": "North Macedonia",
+        "n_moves": 2265,
+        "rate_bits_at_5m": 5.2375188226092355,
+        "rate_bits_at_10m": 3.3738401212709332,
+        "kl_vs_reference_bits": 0.045564782142608395,
+        "mean_self_info_bits": 10.406537341499936
+      },
+      {
+        "team": "Germany",
+        "n_moves": 4823,
+        "rate_bits_at_5m": 5.196400631018823,
+        "rate_bits_at_10m": 3.355547594409405,
+        "kl_vs_reference_bits": 0.04088029696283491,
+        "mean_self_info_bits": 10.334226427565703
+      },
+      {
+        "team": "Czech Republic",
+        "n_moves": 3891,
+        "rate_bits_at_5m": 5.244275606094611,
+        "rate_bits_at_10m": 3.426568726170456,
+        "kl_vs_reference_bits": 0.038559498306418735,
+        "mean_self_info_bits": 10.419262768606181
+      },
+      {
+        "team": "Spain",
+        "n_moves": 9660,
+        "rate_bits_at_5m": 5.17747008371249,
+        "rate_bits_at_10m": 3.3146309198130566,
+        "kl_vs_reference_bits": 0.03580806797180598,
+        "mean_self_info_bits": 10.299307602006873
+      },
+      {
+        "team": "France",
+        "n_moves": 4469,
+        "rate_bits_at_5m": 5.145309126327875,
+        "rate_bits_at_10m": 3.3278054202172074,
+        "kl_vs_reference_bits": 0.03345001002180516,
+        "mean_self_info_bits": 10.29172014363928
+      },
+      {
+        "team": "Croatia",
+        "n_moves": 3796,
+        "rate_bits_at_5m": 5.26704467476866,
+        "rate_bits_at_10m": 3.403486046607988,
+        "kl_vs_reference_bits": 0.0329334377556372,
+        "mean_self_info_bits": 10.392480066103476
+      },
+      {
+        "team": "Wales",
+        "n_moves": 2342,
+        "rate_bits_at_5m": 5.236284289798393,
+        "rate_bits_at_10m": 3.426567796112157,
+        "kl_vs_reference_bits": 0.03045414098563865,
+        "mean_self_info_bits": 10.443214623784497
+      },
+      {
+        "team": "Scotland",
+        "n_moves": 2165,
+        "rate_bits_at_5m": 5.2435356465367855,
+        "rate_bits_at_10m": 3.442835358165845,
+        "kl_vs_reference_bits": 0.02970646286729959,
+        "mean_self_info_bits": 10.42204342794149
+      },
+      {
+        "team": "Italy",
+        "n_moves": 8006,
+        "rate_bits_at_5m": 5.302886177342545,
+        "rate_bits_at_10m": 3.3933436779214676,
+        "kl_vs_reference_bits": 0.02960861587897365,
+        "mean_self_info_bits": 10.384411516886216
+      },
+      {
+        "team": "Portugal",
+        "n_moves": 4257,
+        "rate_bits_at_5m": 5.129477924558737,
+        "rate_bits_at_10m": 3.297165399620388,
+        "kl_vs_reference_bits": 0.02464127830385885,
+        "mean_self_info_bits": 10.29208295525563
+      },
+      {
+        "team": "Ukraine",
+        "n_moves": 5071,
+        "rate_bits_at_5m": 5.253872313684918,
+        "rate_bits_at_10m": 3.3707453162801317,
+        "kl_vs_reference_bits": 0.024627034014100393,
+        "mean_self_info_bits": 10.348674285937372
+      },
+      {
+        "team": "Denmark",
+        "n_moves": 5712,
+        "rate_bits_at_5m": 5.245223566400575,
+        "rate_bits_at_10m": 3.3856668887342893,
+        "kl_vs_reference_bits": 0.02318069702117953,
+        "mean_self_info_bits": 10.360523116035528
+      },
+      {
+        "team": "Austria",
+        "n_moves": 4165,
+        "rate_bits_at_5m": 5.240915760848067,
+        "rate_bits_at_10m": 3.3464271927053684,
+        "kl_vs_reference_bits": 0.021961346501792253,
+        "mean_self_info_bits": 10.3581500474121
+      },
+      {
+        "team": "Russia",
+        "n_moves": 2292,
+        "rate_bits_at_5m": 5.169469054163798,
+        "rate_bits_at_10m": 3.346610239347469,
+        "kl_vs_reference_bits": 0.021518515243739836,
+        "mean_self_info_bits": 10.357769156994006
+      },
+      {
+        "team": "Switzerland",
+        "n_moves": 4616,
+        "rate_bits_at_5m": 5.260704512952169,
+        "rate_bits_at_10m": 3.410577897814432,
+        "kl_vs_reference_bits": 0.019069108652678565,
+        "mean_self_info_bits": 10.378878063174733
+      },
+      {
+        "team": "Belgium",
+        "n_moves": 5579,
+        "rate_bits_at_5m": 5.2395213007115755,
+        "rate_bits_at_10m": 3.3588804946752497,
+        "kl_vs_reference_bits": 0.018387649921355352,
+        "mean_self_info_bits": 10.342544989027209
+      },
+      {
+        "team": "England",
+        "n_moves": 7234,
+        "rate_bits_at_5m": 5.238419188265385,
+        "rate_bits_at_10m": 3.3649971982796556,
+        "kl_vs_reference_bits": 0.01246219049491685,
+        "mean_self_info_bits": 10.337625299879509
+      }
+    ]
+  },
+  "grid": {
+    "nx": 48,
+    "ny": 32,
+    "cell_area_m2": 4.6484375
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "dataset": "Sportec/IDSSE open (Bassek et al. 2025; CC-BY 4.0)",
+  "design": {
+    "anchors_per_match": 250,
+    "stride_frames": 200,
+    "velocity_window_frames": 7,
+    "fps": 25,
+    "min_players_per_side": 7,
+    "velocity_cap_m_s": 12.0,
+    "smoothing": "centred finite difference over 7 frames (0.24 s)",
+    "speed_stratifier": "frame mean player speed (both teams)",
+    "coordinate_validation": "raw X,Y,S identical to kloppy load_open_tracking_data (secondspectrum)"
+  },
+  "n_matches": 7,
+  "matches": {
+    "J03WMX": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9906720303596,
+      "overall_flip": 0.0333151041708
+    },
+    "J03WN1": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9927816304135999,
+      "overall_flip": 0.027916666668799998
+    },
+    "J03WOH": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9903373947252001,
+      "overall_flip": 0.0332421875004
+    },
+    "J03WOY": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9915013361563999,
+      "overall_flip": 0.0314218749996
+    },
+    "J03WPY": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9909489949548,
+      "overall_flip": 0.0310781249992
+    },
+    "J03WQQ": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9901765744619999,
+      "overall_flip": 0.034338541667999996
+    },
+    "J03WR9": {
+      "n_evaluated": 250,
+      "overall_corr": 0.9920521790247999,
+      "overall_flip": 0.0287734375004
+    }
+  },
+  "n_evaluated_total": 1750,
+  "overall_corr_mean": 0.9912100200137715,
+  "overall_flip_mean": 0.03144084821531429,
+  "by_speed_band": {
+    "0-1": {
+      "n": 413,
+      "corr_mean": 0.9985277787687652,
+      "corr_lo": 0.9983825785283112,
+      "corr_hi": 0.9986592819833837,
+      "flip_mean": 0.012004073344067799,
+      "flip_lo": 0.011137068703371672,
+      "flip_hi": 0.01290260542592615
+    },
+    "1-2": {
+      "n": 676,
+      "corr_mean": 0.9947448561368345,
+      "corr_lo": 0.9944608859449815,
+      "corr_hi": 0.9950374644754587,
+      "flip_mean": 0.025019839437278105,
+      "flip_lo": 0.024087530435036985,
+      "flip_hi": 0.025915623652662725
+    },
+    "2-3": {
+      "n": 434,
+      "corr_mean": 0.9871340603981568,
+      "corr_lo": 0.9864525493219182,
+      "corr_hi": 0.9877975458268721,
+      "flip_mean": 0.04278723838410138,
+      "flip_lo": 0.041236064109913595,
+      "flip_hi": 0.0443653768850576
+    },
+    "3-4": {
+      "n": 184,
+      "corr_mean": 0.9774665461418479,
+      "corr_lo": 0.9759246083517118,
+      "corr_hi": 0.9789015511478806,
+      "flip_mean": 0.06063533175271739,
+      "flip_lo": 0.05787503892650816,
+      "flip_hi": 0.06342393073756794
+    },
+    ">4": {
+      "n": 43,
+      "corr_mean": 0.9653026265395349,
+      "corr_lo": 0.9619317206881978,
+      "corr_hi": 0.9686983865087208,
+      "flip_mean": 0.07962390988139535,
+      "flip_lo": 0.07332432472290698,
+      "flip_hi": 0.08593749999075583
+    }
+  }
+}

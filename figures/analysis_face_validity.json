@@ -1,0 +1,195 @@
+{
+  "competition": "English Premier League 2015/16",
+  "directness_m": {
+    "min": 3.929646464772868,
+    "max": 7.2551657790229,
+    "mean": 5.415197600814998,
+    "sd": 1.0836668134298655
+  },
+  "most_direct": [
+    {
+      "team": "West Bromwich Albion",
+      "directness": 7.2551657790229
+    },
+    {
+      "team": "Sunderland",
+      "directness": 7.227840925464337
+    },
+    {
+      "team": "Leicester City",
+      "directness": 7.18610001458043
+    },
+    {
+      "team": "Crystal Palace",
+      "directness": 6.503035584492913
+    },
+    {
+      "team": "Watford",
+      "directness": 6.419008129800705
+    }
+  ],
+  "least_direct": [
+    {
+      "team": "Liverpool",
+      "directness": 4.513944693408877
+    },
+    {
+      "team": "Chelsea",
+      "directness": 4.357494193844239
+    },
+    {
+      "team": "Arsenal",
+      "directness": 4.224993275960965
+    },
+    {
+      "team": "Manchester United",
+      "directness": 4.146078828650435
+    },
+    {
+      "team": "Manchester City",
+      "directness": 3.929646464772868
+    }
+  ],
+  "team_table": [
+    {
+      "team": "West Bromwich Albion",
+      "n_matches": 38,
+      "directness": 7.255,
+      "mean_xt_end": 0.02,
+      "att_third_frac": 0.371
+    },
+    {
+      "team": "Sunderland",
+      "n_matches": 38,
+      "directness": 7.228,
+      "mean_xt_end": 0.019,
+      "att_third_frac": 0.334
+    },
+    {
+      "team": "Leicester City",
+      "n_matches": 38,
+      "directness": 7.186,
+      "mean_xt_end": 0.02,
+      "att_third_frac": 0.376
+    },
+    {
+      "team": "Crystal Palace",
+      "n_matches": 38,
+      "directness": 6.503,
+      "mean_xt_end": 0.019,
+      "att_third_frac": 0.342
+    },
+    {
+      "team": "Watford",
+      "n_matches": 38,
+      "directness": 6.419,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.334
+    },
+    {
+      "team": "Norwich City",
+      "n_matches": 38,
+      "directness": 6.203,
+      "mean_xt_end": 0.019,
+      "att_third_frac": 0.367
+    },
+    {
+      "team": "West Ham United",
+      "n_matches": 38,
+      "directness": 5.789,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.319
+    },
+    {
+      "team": "Newcastle United",
+      "n_matches": 38,
+      "directness": 5.733,
+      "mean_xt_end": 0.017,
+      "att_third_frac": 0.301
+    },
+    {
+      "team": "Southampton",
+      "n_matches": 38,
+      "directness": 5.456,
+      "mean_xt_end": 0.019,
+      "att_third_frac": 0.348
+    },
+    {
+      "team": "Stoke City",
+      "n_matches": 38,
+      "directness": 5.422,
+      "mean_xt_end": 0.017,
+      "att_third_frac": 0.284
+    },
+    {
+      "team": "Aston Villa",
+      "n_matches": 38,
+      "directness": 5.265,
+      "mean_xt_end": 0.017,
+      "att_third_frac": 0.302
+    },
+    {
+      "team": "AFC Bournemouth",
+      "n_matches": 38,
+      "directness": 4.768,
+      "mean_xt_end": 0.017,
+      "att_third_frac": 0.312
+    },
+    {
+      "team": "Everton",
+      "n_matches": 38,
+      "directness": 4.743,
+      "mean_xt_end": 0.017,
+      "att_third_frac": 0.3
+    },
+    {
+      "team": "Swansea City",
+      "n_matches": 38,
+      "directness": 4.601,
+      "mean_xt_end": 0.016,
+      "att_third_frac": 0.267
+    },
+    {
+      "team": "Tottenham Hotspur",
+      "n_matches": 38,
+      "directness": 4.56,
+      "mean_xt_end": 0.017,
+      "att_third_frac": 0.311
+    },
+    {
+      "team": "Liverpool",
+      "n_matches": 38,
+      "directness": 4.514,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.313
+    },
+    {
+      "team": "Chelsea",
+      "n_matches": 38,
+      "directness": 4.357,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.341
+    },
+    {
+      "team": "Arsenal",
+      "n_matches": 38,
+      "directness": 4.225,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.331
+    },
+    {
+      "team": "Manchester United",
+      "n_matches": 38,
+      "directness": 4.146,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.337
+    },
+    {
+      "team": "Manchester City",
+      "n_matches": 38,
+      "directness": 3.93,
+      "mean_xt_end": 0.018,
+      "att_third_frac": 0.36
+    }
+  ]
+}

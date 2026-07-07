@@ -1,0 +1,52 @@
+{
+  "event_datasets": {
+    "UEFA Euro 2020 (events+360)": {
+      "matches": 51,
+      "teams": 24,
+      "team_match_rows": 102,
+      "moves": 98620,
+      "shots": 1289
+    },
+    "FAWSL 2018/19": {
+      "matches": 107,
+      "teams": 11,
+      "team_match_rows": 214,
+      "moves": 176995,
+      "shots": 2816
+    },
+    "FAWSL 2019/20": {
+      "matches": 87,
+      "teams": 13,
+      "team_match_rows": 174,
+      "moves": 142086,
+      "shots": 2223
+    },
+    "English Premier League 2015/16": {
+      "matches": 380,
+      "teams": 20,
+      "team_match_rows": 760,
+      "moves": 645568,
+      "shots": 9908
+    }
+  },
+  "spadl_datasets": {
+    "UEFA Euro 2020": {
+      "games": 51,
+      "actions": 112447
+    },
+    "FIFA World Cup 2022": {
+      "games": 64,
+      "actions": 138946
+    }
+  },
+  "metrica_tracking": {
+    "game 1": {
+      "present": true
+    },
+    "game 2": {
+      "present": true
+    }
+  },
+  "statsbomb_360_files_cached": 51,
+  "pinned_statsbomb_commit": "b0bc9f22dd77c206ddedc1d742893b3bbe64baec"
+}

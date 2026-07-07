@@ -1,0 +1,87 @@
+{
+  "method": "crossed random-effects mixed model (REML); team and opponent variance components; proportions of total variance",
+  "datasets": {
+    "PL_2015_16": {
+      "n_rows": 760,
+      "n_teams": 20,
+      "descriptors": {
+        "mean_xt_end": {
+          "team_prop": 0.18988190712197442,
+          "opp_prop": 0.04526608940039531,
+          "resid_prop": 0.7648520034776304,
+          "n": 760,
+          "converged": true
+        },
+        "entropy_end": {
+          "team_prop": 0.224748101396633,
+          "opp_prop": 0.047919218254746564,
+          "resid_prop": 0.7273326803486204,
+          "n": 760,
+          "converged": true
+        },
+        "directness": {
+          "team_prop": 0.47005830531166004,
+          "opp_prop": 0.04432551761270447,
+          "resid_prop": 0.48561617707563537,
+          "n": 760,
+          "converged": true
+        },
+        "att_third_frac": {
+          "team_prop": 0.1887926864506588,
+          "opp_prop": 0.05750704314503739,
+          "resid_prop": 0.7537002704043038,
+          "n": 760,
+          "converged": true
+        },
+        "sum_dxt": {
+          "team_prop": 0.066296963701035,
+          "opp_prop": 0.10121282289783211,
+          "resid_prop": 0.8324902134011328,
+          "n": 760,
+          "converged": true
+        }
+      }
+    },
+    "FAWSL_2018_19": {
+      "n_rows": 214,
+      "n_teams": 11,
+      "descriptors": {
+        "mean_xt_end": {
+          "team_prop": 0.13334417525094297,
+          "opp_prop": 0.3707168593252724,
+          "resid_prop": 0.4959389654237846,
+          "n": 214,
+          "converged": true
+        },
+        "entropy_end": {
+          "team_prop": 0.01119550663891757,
+          "opp_prop": 0.0031132444754151576,
+          "resid_prop": 0.9856912488856673,
+          "n": 214,
+          "converged": false
+        },
+        "directness": {
+          "team_prop": 0.6532297595768383,
+          "opp_prop": 0.07847514563614778,
+          "resid_prop": 0.268295094787014,
+          "n": 214,
+          "converged": true
+        },
+        "att_third_frac": {
+          "team_prop": 0.11458603043302763,
+          "opp_prop": 0.3669298121109224,
+          "resid_prop": 0.51848415745605,
+          "n": 214,
+          "converged": true
+        },
+        "sum_dxt": {
+          "team_prop": 0.2714147225909217,
+          "opp_prop": 0.441047230166137,
+          "resid_prop": 0.28753804724294135,
+          "n": 214,
+          "converged": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. Data must additionally be attributed to StatsBomb (see ATTRIBUTION.md)."
+title: "ffields: field-theoretic and information-theoretic football analytics under partial observation"
+version: 0.2.0
+date-released: 2026-06-19
+authors:
+  - family-names: "Lawson McLean"
+    given-names: "Aaron"
+    orcid: "https://orcid.org/0000-0001-5528-6905"
+license: MIT
+repository-code: "https://github.com/USER/open-football-fields"
+keywords:
+  - football analytics
+  - spatial fields
+  - pitch control
+  - partial observation
+  - open data
+preferred-citation:
+  type: thesis
+  title: "Estimation under partial observation in association football: spatial fields and team descriptors from open data"
+  authors:
+    - family-names: "Lawson McLean"
+      given-names: "Aaron"
+      orcid: "https://orcid.org/0000-0001-5528-6905"
+  year: 2026
+  thesis-type: "PhD thesis"

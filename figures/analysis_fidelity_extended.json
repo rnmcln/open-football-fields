@@ -1,0 +1,79 @@
+{
+  "design": {
+    "games": [
+      1,
+      2
+    ],
+    "frames_sampled_per_game": 800,
+    "min_players_per_side": 7,
+    "velocity_cap_m_s": 12.0,
+    "smoothing": "centred moving average, 7 frames; finite-difference velocity",
+    "speed_stratifier": "frame mean player speed (both teams)"
+  },
+  "per_game": {
+    "1": {
+      "n_frames_total": 145006,
+      "fps": 25.0,
+      "n_evaluated": 799,
+      "overall_corr": 0.9914902544781299,
+      "overall_flip": 0.03078229297037964
+    },
+    "2": {
+      "n_frames_total": 141156,
+      "fps": 25.0,
+      "n_evaluated": 798,
+      "overall_corr": 0.9931342240866059,
+      "overall_flip": 0.027480811403508772
+    }
+  },
+  "n_evaluated_total": 1597,
+  "overall_corr_mean": 0.9923117245767923,
+  "overall_flip_mean": 0.029132585838029634,
+  "by_speed_band": {
+    "0-1": {
+      "n": 350,
+      "corr_mean": 0.9986408382045038,
+      "corr_lo": 0.998523447209986,
+      "corr_hi": 0.9987523767849993,
+      "flip_mean": 0.01236235119047619,
+      "flip_lo": 0.01142666480654762,
+      "flip_hi": 0.01347846912202381
+    },
+    "1-2": {
+      "n": 733,
+      "corr_mean": 0.9946432203544981,
+      "corr_lo": 0.9943912639530139,
+      "corr_hi": 0.994887177802938,
+      "flip_mean": 0.025094858458390178,
+      "flip_lo": 0.024248415472942247,
+      "flip_hi": 0.02593419594133697
+    },
+    "2-3": {
+      "n": 350,
+      "corr_mean": 0.9888321458424673,
+      "corr_lo": 0.9882795172047255,
+      "corr_hi": 0.9893550924675665,
+      "flip_mean": 0.03947358630952381,
+      "flip_lo": 0.03786072358630952,
+      "flip_hi": 0.041183221726190475
+    },
+    "3-4": {
+      "n": 123,
+      "corr_mean": 0.979799974811937,
+      "corr_lo": 0.9780353848779633,
+      "corr_hi": 0.9815371966405365,
+      "flip_mean": 0.05511623475609756,
+      "flip_lo": 0.05171282181571816,
+      "flip_hi": 0.05842477028285907
+    },
+    ">4": {
+      "n": 41,
+      "corr_mean": 0.9638390807556597,
+      "corr_lo": 0.9589552923046505,
+      "corr_hi": 0.9685145018803459,
+      "flip_mean": 0.0782520325203252,
+      "flip_lo": 0.0720901613313008,
+      "flip_hi": 0.08425471608231706
+    }
+  }
+}

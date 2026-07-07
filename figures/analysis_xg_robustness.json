@@ -1,0 +1,80 @@
+{
+  "n_team_match_rows": 229,
+  "n_match_clusters": 115,
+  "xg_zero_diagnostics": {
+    "n_rows": 229,
+    "n_zero_xg": 0,
+    "n_positive_xg": 229,
+    "min_sum_xg": 0.093042789,
+    "min_positive_sum_xg": 0.093042789,
+    "median_sum_xg": 1.163511151,
+    "gamma_valid_without_adjustment": true
+  },
+  "cluster_note": "cluster-robust covariance grouped by match (game_id); each match contributes two correlated team rows",
+  "incremental_value_robust": {
+    "mean_xt_end": {
+      "shots_poisson": {
+        "coef": 0.25716808435252575,
+        "p_naive": 5.330221782246123e-41,
+        "p_cluster_by_match": 5.232447975260267e-38,
+        "se_naive": 0.019178262782996773,
+        "se_cluster_by_match": 0.019953467869893667
+      },
+      "xg_gamma_log_positive_rows": {
+        "coef": 0.25403480784905585,
+        "p_naive": 2.378990772265004e-06,
+        "p_cluster_by_match": 1.3038784866043915e-07,
+        "se_naive": 0.05384106217315352,
+        "se_cluster_by_match": 0.048128148491959594
+      }
+    },
+    "directness": {
+      "shots_poisson": {
+        "coef": 0.28551980681004474,
+        "p_naive": 1.5030068511890586e-17,
+        "p_cluster_by_match": 3.8874770621624206e-10,
+        "se_naive": 0.03348453304409418,
+        "se_cluster_by_match": 0.04562127005334299
+      },
+      "xg_gamma_log_positive_rows": {
+        "coef": 0.4416463690249534,
+        "p_naive": 6.249293582076643e-08,
+        "p_cluster_by_match": 1.6511319833538305e-06,
+        "se_naive": 0.08161229834566537,
+        "se_cluster_by_match": 0.09216294547174077
+      }
+    },
+    "att_third_frac": {
+      "shots_poisson": {
+        "coef": 0.21590771403184486,
+        "p_naive": 1.3763546055255081e-28,
+        "p_cluster_by_match": 1.4580680176066609e-21,
+        "se_naive": 0.019465687994825474,
+        "se_cluster_by_match": 0.02263690836199116
+      },
+      "xg_gamma_log_positive_rows": {
+        "coef": 0.1698516345172567,
+        "p_naive": 0.0013340062591381508,
+        "p_cluster_by_match": 0.0018975282642243454,
+        "se_naive": 0.052936999160738206,
+        "se_cluster_by_match": 0.0546881948275212
+      }
+    },
+    "sum_dxt": {
+      "shots_poisson": {
+        "coef": 0.22801455174794644,
+        "p_naive": 5.4278485146886675e-25,
+        "p_cluster_by_match": 1.1736509422923017e-15,
+        "se_naive": 0.022083581407231313,
+        "se_cluster_by_match": 0.02847624829692434
+      },
+      "xg_gamma_log_positive_rows": {
+        "coef": 0.37096416618532074,
+        "p_naive": 5.779397172702424e-10,
+        "p_cluster_by_match": 3.270350530890171e-11,
+        "se_naive": 0.05986834409924579,
+        "se_cluster_by_match": 0.055919863468508066
+      }
+    }
+  }
+}

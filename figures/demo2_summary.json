@@ -1,0 +1,48 @@
+{
+  "competition": "UEFA Euro 2020",
+  "n_matches": 51,
+  "n_matches_with_360": 51,
+  "n_moves_total": 98620,
+  "threat": {
+    "native_grid": [
+      12,
+      16
+    ],
+    "T_max_on_grid": 0.2937762598448582,
+    "T_spatial_entropy_bits": 9.763596713845498,
+    "gradT_mean_x": 0.0006722932468496528,
+    "gradT_mean_mag": 0.001351512406945832
+  },
+  "flow": {
+    "min_count": 30,
+    "cells_observed": 1164,
+    "mean_speed_proxy_m": 5.620457405583061,
+    "divergence_range": [
+      -22.29491616989567,
+      5.420308426073134
+    ],
+    "bootstrap_div_median_ci_width": 2.293192870379622,
+    "bootstrap_n": 200
+  },
+  "robustness_gate": {
+    "ref_sigma_m": 1.0,
+    "min_mean_corr": 0.8,
+    "event_density_noise": true,
+    "event_density_resolution": true,
+    "expected_threat_resolution": true,
+    "flow_field_jmag_noise_corr": 0.8760936568552983,
+    "flow_field_passes": true,
+    "flow_divergence_noise_corr": 0.6417840120385062,
+    "flow_divergence_passes": false,
+    "flow_divergence_coarse_grid_corr": 0.9074235789458582,
+    "flow_divergence_coarse_passes": true,
+    "flow_curl_noise_corr": 0.5435649207734681,
+    "flow_curl_passes": false,
+    "interpretation": "Differential operators on J are noise-amplifying: the base flow field is stabler than its derivatives, and divergence recovers on a coarser grid. curl remains the most fragile. Reported as a negative methodological finding; curl is NOT licensed for empirical use."
+  },
+  "grid": {
+    "nx": 48,
+    "ny": 32,
+    "cell_area_m2": 4.6484375
+  }
+}
